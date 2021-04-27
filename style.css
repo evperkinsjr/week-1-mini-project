@@ -101,6 +101,9 @@
     
   button {
     height: 40px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
     background-color: #4F4846;
     color: #FDF8F5;
   }
