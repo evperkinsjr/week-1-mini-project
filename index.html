@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <title>My Landing Page</title>
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="navMenu">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="navLink"><a href="#">Home</a></li>
+        <li class="navLink"><a href="#">About</a></li>
+        <li class="navLink"><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -26,7 +26,7 @@
     </figure>
     <section id="contact">
       <h2 class="text-center">Contact Me</h2>
-      <form action="#">
+      <form action="#" class="text-center">
         <label for="email">
           <h4>Email</h4>
           <input type="email" id="email" placeholder="Enter your email"/>
@@ -35,9 +35,11 @@
           <h4>Message</h4>
           <textarea id="message">Your Message</textarea>
         </label>
-        <button>
-          <input type="submit" value="Send">
-        </button>
+        <label for="button">
+          <button>
+            <input type="submit" value="Send Message">
+          </button>
+        </label>
       </form>
     </section>
   </main>

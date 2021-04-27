@@ -46,7 +46,7 @@
     position: fixed;
     border-bottom: 10px solid #DDAF94;
   }
-  
+
   footer {
     position: absolute;
     margin-top: 0;
@@ -81,8 +81,10 @@
   }
   
   label {
-    display: inline-block;
-    width: 100px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 60%;
   }
     
   input, 
@@ -99,7 +101,6 @@
     
   button {
     height: 40px;
-    width: 120px;
     background-color: #4F4846;
     color: #FDF8F5;
   }
